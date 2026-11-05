@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #1a1a1a;
+    background-color: #faf9f6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-fashion {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
+
+/* Custom scrollbar for fashion gallery feels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede6;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4cbbe;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8ac9b;
+}

@@ -1,0 +1,685 @@
+{
+  "users": [
+    {
+      "id": "user-demo-1",
+      "name": "Alexandre Laurent",
+      "email": "alex@aurafashion.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "age": 27,
+      "gender": "all",
+      "preferredStyle": "Old Money",
+      "favouriteColours": [
+        "Oatmeal Beige",
+        "Sage Mist",
+        "Charcoal Black",
+        "Classic White"
+      ],
+      "fashionPreferences": [
+        "Comfort-first",
+        "Tailored/Sharp",
+        "Breathable Natural Linens"
+      ],
+      "preferredOccasions": [
+        "Casual Day Out",
+        "Work/Office",
+        "Date Night"
+      ],
+      "comfortPreferences": "Relaxed tailored fits with breathable natural fibers",
+      "bio": "Creative consultant obsessed with quiet luxury, earthy palettes, and timeless silhouettes.",
+      "joinedDate": "November 2026"
+    },
+    {
+      "id": "user-1793873778096",
+      "name": "anishbhar6963",
+      "email": "anishbhar6963@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741776?auto=format&fit=crop&w=400&q=80",
+      "age": 25,
+      "gender": "all",
+      "preferredStyle": "Minimalist",
+      "favouriteColours": [
+        "Classic White",
+        "Oatmeal Beige",
+        "Midnight Black"
+      ],
+      "fashionPreferences": [
+        "Comfort-first",
+        "Tailored/Sharp"
+      ],
+      "preferredOccasions": [
+        "Casual Day Out",
+        "Work/Office"
+      ],
+      "comfortPreferences": "Relaxed breathable silhouettes",
+      "bio": "Fashion enthusiast exploring modern personal styling with AI.",
+      "joinedDate": "November 2026"
+    }
+  ],
+  "wardrobe": [
+    {
+      "id": "wb-1793874372281-bhqn",
+      "userId": "user-1793873778096",
+      "product": {
+        "id": "w-sh-1",
+        "name": "Oversized Crisp Poplin Cotton Shirt",
+        "gender": "women",
+        "category": "Shirts",
+        "price": 92,
+        "color": "Classic White",
+        "colorHex": "#FFFFFF",
+        "style": "Minimalist",
+        "occasion": "Work/Office",
+        "image": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&fit=crop&w=800&q=80",
+        "description": "Architectural boyfriend silhouette in crisp Egyptian cotton poplin with exaggerated cuffs.",
+        "material": "100% Organic Egyptian Cotton",
+        "pairingTips": [
+          "Half-tuck into high-waist straight jeans or flowing palazzo trousers",
+          "Layer with gold chain necklaces"
+        ],
+        "rating": 4.9,
+        "isFeatured": true
+      },
+      "addedAt": "2026-11-05T10:26:12.282Z"
+    },
+    {
+      "id": "wb-1",
+      "userId": "user-demo-1",
+      "product": {
+        "id": "m-sh-1",
+        "name": "French Linen Relaxed Camp Shirt",
+        "gender": "men",
+        "category": "Shirts",
+        "subCategory": "Casual Shirts",
+        "price": 88,
+        "color": "Oatmeal Beige",
+        "colorHex": "#D8CBB9",
+        "style": "Minimalist",
+        "occasion": "Casual Day Out",
+        "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+        "description": "Breezy pure European linen camp collar shirt with mother-of-pearl buttons and relaxed boxy drape.",
+        "material": "100% French Normandy Linen",
+        "pairingTips": [
+          "Pairs naturally with off-white pleated trousers or tailored shorts",
+          "Wear open over a white ribbed tank top"
+        ],
+        "rating": 4.9,
+        "isTrending": true,
+        "isFeatured": true
+      },
+      "addedAt": "2026-11-02T10:10:43.114Z",
+      "notes": "Everyday holy grail shirt. Breathable and effortlessly relaxed."
+    },
+    {
+      "id": "wb-2",
+      "userId": "user-demo-1",
+      "product": {
+        "id": "w-dr-1",
+        "name": "Satin Bias-Cut Midi Slip Dress",
+        "gender": "women",
+        "category": "Dresses",
+        "price": 165,
+        "color": "Sage Mist",
+        "colorHex": "#9CAF88",
+        "style": "Old Money",
+        "occasion": "Date Night",
+        "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80",
+        "description": "Cut on the bias to hug curves gracefully, featuring a delicate cowl neckline and low-scoop back.",
+        "material": "100% Recycled Poly Satin",
+        "pairingTips": [
+          "Dress up with strappy stilettos and chandelier earrings",
+          "Dress down with white sneakers and oversized blazer"
+        ],
+        "rating": 4.9,
+        "isFeatured": true,
+        "isTrending": true
+      },
+      "addedAt": "2026-11-03T10:10:43.114Z",
+      "notes": "For dinners and evening art gallery openings."
+    },
+    {
+      "id": "wb-3",
+      "userId": "user-demo-1",
+      "product": {
+        "id": "m-wa-1",
+        "name": "Heritage Chronograph Automatic Watch",
+        "gender": "men",
+        "category": "Watches",
+        "price": 320,
+        "color": "Silver & Emerald Green",
+        "colorHex": "#004B23",
+        "style": "Old Money",
+        "occasion": "Wedding/Celebration",
+        "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
+        "description": "Subtle sunburst emerald dial encased in surgical-grade 316L stainless steel with sapphire crystal.",
+        "material": "316L Stainless Steel, Sapphire Crystal",
+        "pairingTips": [
+          "Wear with dark evening wear or sharp business suits",
+          "Striking conversation starter on any wrist"
+        ],
+        "rating": 4.9,
+        "isTrending": true,
+        "isFeatured": true
+      },
+      "addedAt": "2026-11-04T10:10:43.114Z",
+      "notes": "Heritage timepiece with emerald green dial."
+    },
+    {
+      "id": "wb-4",
+      "userId": "user-demo-1",
+      "product": {
+        "id": "w-bg-1",
+        "name": "Structured Leather Crescent Moon Bag",
+        "gender": "women",
+        "category": "Bags",
+        "price": 185,
+        "color": "Caramel Toffee",
+        "colorHex": "#B26E40",
+        "style": "Old Money",
+        "occasion": "Casual Day Out",
+        "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+        "description": "Sculptural crescent hobo bag in smooth Italian calf leather with magnetic top closure and interior suede pouch.",
+        "material": "100% Italian Calf Leather",
+        "pairingTips": [
+          "Tucks snugly under the arm for day-to-night transitions",
+          "Matches warm neutral tones perfectly"
+        ],
+        "rating": 4.9,
+        "isFeatured": true,
+        "isTrending": true
+      },
+      "addedAt": "2026-11-05T10:10:43.114Z",
+      "notes": "Sculptural crescent bag in caramel toffee."
+    }
+  ],
+  "outfits": [
+    {
+      "id": "outfit-demo-1",
+      "userId": "user-demo-1",
+      "title": "Riviera Sunset Minimalist",
+      "occasion": "Casual Day Out",
+      "items": [
+        {
+          "id": "m-sh-1",
+          "name": "French Linen Relaxed Camp Shirt",
+          "gender": "men",
+          "category": "Shirts",
+          "subCategory": "Casual Shirts",
+          "price": 88,
+          "color": "Oatmeal Beige",
+          "colorHex": "#D8CBB9",
+          "style": "Minimalist",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+          "description": "Breezy pure European linen camp collar shirt with mother-of-pearl buttons and relaxed boxy drape.",
+          "material": "100% French Normandy Linen",
+          "pairingTips": [
+            "Pairs naturally with off-white pleated trousers or tailored shorts",
+            "Wear open over a white ribbed tank top"
+          ],
+          "rating": 4.9,
+          "isTrending": true,
+          "isFeatured": true
+        },
+        {
+          "id": "m-pa-1",
+          "name": "Double-Pleated Wool Blend Trousers",
+          "gender": "men",
+          "category": "Pants",
+          "price": 145,
+          "color": "Sand Beige",
+          "colorHex": "#C2B280",
+          "style": "Old Money",
+          "occasion": "Work/Office",
+          "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=800&q=80",
+          "description": "Classic high-waisted double pleated tailored trousers with side adjusters and gentle taper.",
+          "material": "70% Fine Merino Wool, 30% Linen",
+          "pairingTips": [
+            "Pair with tucked-in knit polo or linen camp shirt and loafers",
+            "Adds instant elegance to casual tees"
+          ],
+          "rating": 4.9,
+          "isFeatured": true
+        },
+        {
+          "id": "m-sg-1",
+          "name": "Handcrafted Acetate Aviators",
+          "gender": "men",
+          "category": "Sunglasses",
+          "price": 125,
+          "color": "Amber Tortoise",
+          "colorHex": "#6F4E37",
+          "style": "Old Money",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80",
+          "description": "Italian Mazzucchelli cellulose acetate frame with polarized mineral glass green lenses and 100% UV400.",
+          "material": "Italian Acetate, Mineral Glass",
+          "pairingTips": [
+            "Instantly elevates linen shirts and casual suits",
+            "Complements warm skin tones"
+          ],
+          "rating": 4.9,
+          "isTrending": true
+        },
+        {
+          "id": "m-so-2",
+          "name": "Clean Leather Low-Top Sneakers",
+          "gender": "men",
+          "category": "Shoes",
+          "price": 140,
+          "color": "Pure White",
+          "colorHex": "#FFFFFF",
+          "style": "Minimalist",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80",
+          "description": "Unbranded minimalist luxury calfskin leather tennis sneakers with Margom Italian cupsole.",
+          "material": "Italian Nappa Leather",
+          "pairingTips": [
+            "The undisputed foundation of modern wardrobe: matches suits, chinos, shorts, and jeans",
+            "Keep clean with leather conditioner"
+          ],
+          "rating": 4.9
+        }
+      ],
+      "createdAt": "2026-11-03T10:10:43.114Z",
+      "stylistNotes": "Monochromatic warm beige tones with linen drape and clean leather contrast."
+    }
+  ],
+  "searchHistory": [
+    {
+      "id": "sh-1793873567283",
+      "userId": "user-demo-1",
+      "query": "shirt",
+      "type": "text",
+      "categoryDetected": "Shirts",
+      "timestamp": "2026-11-05T10:12:47.283Z"
+    },
+    {
+      "id": "sh-1793873559942",
+      "userId": "user-demo-1",
+      "query": "top",
+      "type": "text",
+      "categoryDetected": "Tops",
+      "timestamp": "2026-11-05T10:12:39.942Z"
+    },
+    {
+      "id": "sh-1793873548967",
+      "userId": "user-demo-1",
+      "query": "summer fit",
+      "type": "text",
+      "timestamp": "2026-11-05T10:12:28.968Z"
+    },
+    {
+      "id": "sh-1",
+      "userId": "user-demo-1",
+      "query": "Linen Camp Shirt",
+      "categoryDetected": "Shirts",
+      "type": "text",
+      "timestamp": "2026-11-05T08:10:43.114Z"
+    },
+    {
+      "id": "sh-2",
+      "userId": "user-demo-1",
+      "query": "Pleated Trousers",
+      "categoryDetected": "Pants",
+      "type": "text",
+      "timestamp": "2026-11-05T05:10:43.114Z"
+    },
+    {
+      "id": "sh-3",
+      "userId": "user-demo-1",
+      "query": "Satin Slip Dress",
+      "categoryDetected": "Dresses",
+      "type": "text",
+      "timestamp": "2026-11-04T10:10:43.114Z"
+    }
+  ],
+  "schedule": [
+    {
+      "id": "sched-1",
+      "userId": "user-demo-1",
+      "date": "2026-11-05",
+      "title": "Boardroom Presentation & Client Lunch",
+      "occasion": "Work/Office",
+      "items": [
+        {
+          "id": "m-sh-2",
+          "name": "Tailored Oxford Cotton Button-Down",
+          "gender": "men",
+          "category": "Shirts",
+          "subCategory": "Formal Shirts",
+          "price": 110,
+          "color": "Sky Blue",
+          "colorHex": "#87CEEB",
+          "style": "Formal",
+          "occasion": "Work/Office",
+          "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+          "description": "Crisp two-ply Supima cotton oxford cloth shirt with precise collar roll and barrel cuffs.",
+          "material": "100% Long-Staple Supima Cotton",
+          "pairingTips": [
+            "Layer under navy blazer with tailored chinos or wool trousers",
+            "Pair with a dark brown leather dress watch"
+          ],
+          "rating": 4.8,
+          "isTrending": false,
+          "isFeatured": true
+        },
+        {
+          "id": "m-pa-1",
+          "name": "Double-Pleated Wool Blend Trousers",
+          "gender": "men",
+          "category": "Pants",
+          "price": 145,
+          "color": "Sand Beige",
+          "colorHex": "#C2B280",
+          "style": "Old Money",
+          "occasion": "Work/Office",
+          "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=800&q=80",
+          "description": "Classic high-waisted double pleated tailored trousers with side adjusters and gentle taper.",
+          "material": "70% Fine Merino Wool, 30% Linen",
+          "pairingTips": [
+            "Pair with tucked-in knit polo or linen camp shirt and loafers",
+            "Adds instant elegance to casual tees"
+          ],
+          "rating": 4.9,
+          "isFeatured": true
+        },
+        {
+          "id": "m-so-2",
+          "name": "Clean Leather Low-Top Sneakers",
+          "gender": "men",
+          "category": "Shoes",
+          "price": 140,
+          "color": "Pure White",
+          "colorHex": "#FFFFFF",
+          "style": "Minimalist",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80",
+          "description": "Unbranded minimalist luxury calfskin leather tennis sneakers with Margom Italian cupsole.",
+          "material": "Italian Nappa Leather",
+          "pairingTips": [
+            "The undisputed foundation of modern wardrobe: matches suits, chinos, shorts, and jeans",
+            "Keep clean with leather conditioner"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": "m-wa-1",
+          "name": "Heritage Chronograph Automatic Watch",
+          "gender": "men",
+          "category": "Watches",
+          "price": 320,
+          "color": "Silver & Emerald Green",
+          "colorHex": "#004B23",
+          "style": "Old Money",
+          "occasion": "Wedding/Celebration",
+          "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
+          "description": "Subtle sunburst emerald dial encased in surgical-grade 316L stainless steel with sapphire crystal.",
+          "material": "316L Stainless Steel, Sapphire Crystal",
+          "pairingTips": [
+            "Wear with dark evening wear or sharp business suits",
+            "Striking conversation starter on any wrist"
+          ],
+          "rating": 4.9,
+          "isTrending": true,
+          "isFeatured": true
+        }
+      ],
+      "notes": "Clean Oxford cotton button-down with double-pleated sand trousers and heritage timepiece.",
+      "createdAt": "2026-11-05T10:37:14.352Z"
+    },
+    {
+      "id": "sched-2",
+      "userId": "user-demo-1",
+      "date": "2026-11-06",
+      "title": "Casual Art Gallery Evening",
+      "occasion": "Date Night",
+      "items": [
+        {
+          "id": "m-sh-1",
+          "name": "French Linen Relaxed Camp Shirt",
+          "gender": "men",
+          "category": "Shirts",
+          "subCategory": "Casual Shirts",
+          "price": 88,
+          "color": "Oatmeal Beige",
+          "colorHex": "#D8CBB9",
+          "style": "Minimalist",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+          "description": "Breezy pure European linen camp collar shirt with mother-of-pearl buttons and relaxed boxy drape.",
+          "material": "100% French Normandy Linen",
+          "pairingTips": [
+            "Pairs naturally with off-white pleated trousers or tailored shorts",
+            "Wear open over a white ribbed tank top"
+          ],
+          "rating": 4.9,
+          "isTrending": true,
+          "isFeatured": true
+        },
+        {
+          "id": "m-je-1",
+          "name": "13.5oz Selvedge Straight Jeans",
+          "gender": "men",
+          "category": "Jeans",
+          "price": 130,
+          "color": "Raw Indigo",
+          "colorHex": "#22334A",
+          "style": "Casual",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=800&q=80",
+          "description": "Japanese shuttle-loom selvedge denim with natural indigo dye, red line ID, and copper rivets.",
+          "material": "100% Selvedge Indigo Denim",
+          "pairingTips": [
+            "Cuff the hem twice over boots or clean sneakers",
+            "Matches with white t-shirt and leather jacket"
+          ],
+          "rating": 4.8,
+          "isTrending": true
+        },
+        {
+          "id": "m-so-1",
+          "name": "Artisan Suede Chelsea Boots",
+          "gender": "men",
+          "category": "Shoes",
+          "price": 195,
+          "color": "Taupe Suede",
+          "colorHex": "#B38B6D",
+          "style": "Old Money",
+          "occasion": "Date Night",
+          "image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?auto=format&fit=crop&w=800&q=80",
+          "description": "Goodyear welted European suede Chelsea boots with crepe sole and elasticated side gussets.",
+          "material": "Calf Suede Leather, Natural Crepe Rubber",
+          "pairingTips": [
+            "Wear with slim selvedge jeans or cropped pleated wool trousers",
+            "Pairs well with overcoats and bombers"
+          ],
+          "rating": 4.9,
+          "isTrending": true
+        },
+        {
+          "id": "w-bg-1",
+          "name": "Structured Leather Crescent Moon Bag",
+          "gender": "women",
+          "category": "Bags",
+          "price": 185,
+          "color": "Caramel Toffee",
+          "colorHex": "#B26E40",
+          "style": "Old Money",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+          "description": "Sculptural crescent hobo bag in smooth Italian calf leather with magnetic top closure and interior suede pouch.",
+          "material": "100% Italian Calf Leather",
+          "pairingTips": [
+            "Tucks snugly under the arm for day-to-night transitions",
+            "Matches warm neutral tones perfectly"
+          ],
+          "rating": 4.9,
+          "isFeatured": true,
+          "isTrending": true
+        }
+      ],
+      "notes": "Breezy French linen shirt with raw selvedge denim and suede Chelsea boots.",
+      "createdAt": "2026-11-05T10:37:14.352Z"
+    },
+    {
+      "id": "sched-3",
+      "userId": "user-demo-1",
+      "date": "2026-11-07",
+      "title": "Weekend Farmer Market & Cafe",
+      "occasion": "Casual Day Out",
+      "items": [
+        {
+          "id": "m-ts-1",
+          "name": "Heavyweight Drop-Shoulder Tee",
+          "gender": "men",
+          "category": "T-Shirts",
+          "price": 52,
+          "color": "Chalk White",
+          "colorHex": "#F7F6F2",
+          "style": "Streetwear",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
+          "description": "Dense 280 GSM combed cotton tee featuring a modern relaxed silhouette and reinforced ribbed collar.",
+          "material": "100% Combed Heavy Cotton",
+          "pairingTips": [
+            "Match with selvedge denim or cargo pants and chunky sneakers",
+            "Layer under a chore overshirt"
+          ],
+          "rating": 4.8,
+          "isTrending": true
+        },
+        {
+          "id": "m-shs-1",
+          "name": "Tailored Linen Bermuda Shorts",
+          "gender": "men",
+          "category": "Shorts",
+          "price": 75,
+          "color": "Stone Cream",
+          "colorHex": "#E8E3D9",
+          "style": "Minimalist",
+          "occasion": "Travel",
+          "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=800&q=80",
+          "description": "Structured yet breathable resort shorts with subtle pleats and comfortable tailored waistband.",
+          "material": "55% Linen, 45% Cotton",
+          "pairingTips": [
+            "Match with open linen shirt, woven sandals, and sunglasses",
+            "Perfect for coastal holidays"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "m-sg-1",
+          "name": "Handcrafted Acetate Aviators",
+          "gender": "men",
+          "category": "Sunglasses",
+          "price": 125,
+          "color": "Amber Tortoise",
+          "colorHex": "#6F4E37",
+          "style": "Old Money",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80",
+          "description": "Italian Mazzucchelli cellulose acetate frame with polarized mineral glass green lenses and 100% UV400.",
+          "material": "Italian Acetate, Mineral Glass",
+          "pairingTips": [
+            "Instantly elevates linen shirts and casual suits",
+            "Complements warm skin tones"
+          ],
+          "rating": 4.9,
+          "isTrending": true
+        },
+        {
+          "id": "m-sl-1",
+          "name": "Handwoven Leather Slide Slippers",
+          "gender": "men",
+          "category": "Slippers",
+          "price": 85,
+          "color": "Espresso Brown",
+          "colorHex": "#3E2723",
+          "style": "Casual",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?auto=format&fit=crop&w=800&q=80",
+          "description": "Intricately woven supple cowhide leather strap slides with cushioned anatomical footbed.",
+          "material": "100% Genuine Cowhide Leather",
+          "pairingTips": [
+            "Pair with linen shorts or relaxed draw-string pants",
+            "Ideal for resort lounging and warm weather strolls"
+          ],
+          "rating": 4.8
+        }
+      ],
+      "notes": "Heavyweight chalk white drop-shoulder tee with tailored linen bermudas and leather slides.",
+      "createdAt": "2026-11-05T10:37:14.352Z"
+    },
+    {
+      "id": "sched-1793875040176",
+      "userId": "user-demo-1",
+      "date": "2026-11-08",
+      "title": "Sunday Seaside Brunch",
+      "occasion": "Casual Day Out",
+      "items": [
+        {
+          "id": "m-sh-1",
+          "name": "French Linen Relaxed Camp Shirt",
+          "gender": "men",
+          "category": "Shirts",
+          "subCategory": "Casual Shirts",
+          "price": 88,
+          "color": "Oatmeal Beige",
+          "colorHex": "#D8CBB9",
+          "style": "Minimalist",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+          "description": "Breezy pure European linen camp collar shirt with mother-of-pearl buttons and relaxed boxy drape.",
+          "material": "100% French Normandy Linen",
+          "pairingTips": [
+            "Pairs naturally with off-white pleated trousers or tailored shorts",
+            "Wear open over a white ribbed tank top"
+          ],
+          "rating": 4.9,
+          "isTrending": true,
+          "isFeatured": true
+        },
+        {
+          "id": "m-shs-1",
+          "name": "Tailored Linen Bermuda Shorts",
+          "gender": "men",
+          "category": "Shorts",
+          "price": 75,
+          "color": "Stone Cream",
+          "colorHex": "#E8E3D9",
+          "style": "Minimalist",
+          "occasion": "Travel",
+          "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=800&q=80",
+          "description": "Structured yet breathable resort shorts with subtle pleats and comfortable tailored waistband.",
+          "material": "55% Linen, 45% Cotton",
+          "pairingTips": [
+            "Match with open linen shirt, woven sandals, and sunglasses",
+            "Perfect for coastal holidays"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "m-sg-1",
+          "name": "Handcrafted Acetate Aviators",
+          "gender": "men",
+          "category": "Sunglasses",
+          "price": 125,
+          "color": "Amber Tortoise",
+          "colorHex": "#6F4E37",
+          "style": "Old Money",
+          "occasion": "Casual Day Out",
+          "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80",
+          "description": "Italian Mazzucchelli cellulose acetate frame with polarized mineral glass green lenses and 100% UV400.",
+          "material": "Italian Acetate, Mineral Glass",
+          "pairingTips": [
+            "Instantly elevates linen shirts and casual suits",
+            "Complements warm skin tones"
+          ],
+          "rating": 4.9,
+          "isTrending": true
+        }
+      ],
+      "notes": "Relaxed camp linen with bermuda shorts",
+      "createdAt": "2026-11-05T10:37:20.176Z"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "AURA | AI Personal Fashion & Styling Platform",
+  "description": "Modern AI-powered fashion and personal styling platform for men and women with smart category search, digital wardrobe, camera styling analysis, and personalized outfit recommendations.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
